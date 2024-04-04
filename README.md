@@ -46,7 +46,7 @@ Select the Technology.
 
 Read each question carefully and select the correct answer by clicking on one of the option.
 
-Once you've answered the questions, you score will be displayed.
+Once you've answered the questions, your score will be displayed.
 
 You can choose to reattempt the quiz or return to the main page.
 
