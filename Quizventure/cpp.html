@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intitial-scale=1.0">
+        <title>
+            QuizVenture
+        </title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body style="background-image: url('bg.jpg');background-size: cover;background-repeat: no-repeat;">
+        <div class="nav">
+            <a href="index.html">Index</a> 
+            <a href="instruction.html">Instructions</a>
+            <a href="main.html">Main</a>
+         </div><br><br> 
+        <div id="quiz-container">
+        <h1 style="color: white;text-align: center;">C++ QUIZ</h1>
+        <div id="score">Score: <span id="score-value">0</span></div><br><br><br>
+        <div id="questions"></div><br>
+        <div id="options"></div>
+        <div id="timer">Time left: <span id="time-left"></span></div>
+        <div id="game-over-screen" class="hidden">
+            <h2 id="game-over-message"></h2>
+        </div>
+        <button id="next-button" class="hidden">Next</button>
+        </div>
+        <audio id="background-music" src="quiz-game-music-loop-bpm-90-61070.mp3" loop></audio>
+        <audio id="correct-sound" src="success-1-6297.mp3"></audio>
+        <audio id="incorrect-sound" src="error-2-36058.mp3"></audio>
+        <script src="cpp.js"></script>
+    </body>
+
+</html>

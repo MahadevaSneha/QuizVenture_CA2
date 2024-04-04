@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Licorice');
+.display{
+    align-items: center;
+    justify-content: center;
+    margin:20%;
+    position:relative;
+}
+#title{
+    color:darkblue;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#name{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#btn-1{
+    background-color:gray;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    border-color:gray;
+    font-weight: bolder;
+    letter-spacing: 2;
+    font-size: 20px;
+}
+.in-bt{
+    padding:9px;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+#t{
+    color:darkblue;
+    font-size: 100%;
+    font-weight: bolder;
+    float: right;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin:2%;
+    position: relative;
+  }
+  .grid-item {
+    background-color: rgba(116, 115, 115, 0.8);
+    border: 1px solid black;
+    padding: 80px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: space-between;
+    
+  }
+.hidden{
+    display: none;
+   
+}
+#quiz-container{
+    text-align: center;
+    
+
+}
+#options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+
+}
+#timer{
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+#score{
+    margin-right: 1%;
+    float: right;
+    font-size: 50px;
+    font-family:Licorice;
+    font-weight: bold;
+    color:white;
+}
+.option-btn {
+    margin: 5px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:black;
+    width: 300px;
+    display: block;
+
+    
+}
+#questions{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+   
+    
+    
+}
+#next-button{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    justify-content: center;
+    text-align:center;
+    font-weight: bolder;
+    background-color:white;
+    border-color: gainsboro;
+    color: black;
+    background-position-x:center;
+}
+#game-over-screen button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#game-over-screen button:hover{
+    background-color: #45a049;
+}
+#playQuiz{
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+a{
+    display: inline-block;
+    padding: 10px 10px ;
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    
+
+}
+.nav{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    float: right;
+}
